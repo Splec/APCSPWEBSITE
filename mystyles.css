@@ -1,0 +1,60 @@
+.gridSystem{
+    background-color: white;
+    text-align:center;
+    min-height:300px;
+}
+.gridSystem2{
+    background-color: white;
+    text-align:center;
+    min-height:300px;
+}
+footer{
+    background-color: black;
+    text-align:center;
+    padding:40px;
+    color: yellow;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bio1{
+    min-height:200px;
+}
+.bio2{
+    min-height:80%;
+    width:80%;
+    
+    
+}
+nav a:hover{
+    background-color:grey;
+}
+.mainsection{
+    text-align:center;
+}
+
+/* The animation code */
+@keyframes myAnimation {
+  from {background-color: red;
+      color:yellow;
+      margin-left: 0px
+  }
+  to {background-color: yellow;
+      color: red;
+      margin-left: 90%;
+  }
+}
+
+/* The element to apply the animation to */
+.colorchanger {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  text-align:center;
+}
